@@ -15,9 +15,9 @@ var mysql = require("mysql");
 //如果需要主動提醒的話，需要有 Message push API 的權限
 //可以申請 Developer Trial 的話免費的也有 Message push API 權限，但有限制好友數量
 var bot = linebot({
-    channelId: '',
-    channelSecret: '',
-    channelAccessToken: ''
+    channelId: '1571188006',
+    channelSecret: 'ddb5bf25c5a1c271f013e771dbf62ebd',
+    channelAccessToken: 'TUa/1ZjvmdvLG7WseCl66p14vP4+e0cO/dq0+j3fFuZGyUF/k56QPqfSzcp1PvfBp78bRzFri0eoajqEk9iyPsuKRtj0y6X8O3mySlfEjipSZEGW2abIOjNm4iyVUcdA63RoiOais31eUtTAjQ1d9QdB04t89/1O/w1cDnyilFU='
 });
 
 //請填入 MySql Database 資訊
