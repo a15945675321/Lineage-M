@@ -17,7 +17,7 @@ var mysql = require("mysql");
 var bot = linebot({
     channelId: 'TUa/1ZjvmdvLG7WseCl66p14vP4+e0cO/dq0+j3fFuZGyUF/k56QPqfSzcp1PvfBp78bRzFri0eoajqEk9iyPsuKRtj0y6X8O3mySlfEjipSZEGW2abIOjNm4iyVUcdA63RoiOais31eUtTAjQ1d9QdB04t89/1O/w1cDnyilFU=',
     channelSecret: 'Line Channel Secret',
-    channelAccessToken: 'Line Channel Acccess Token'
+    channelAccessToken: 'TUa/1ZjvmdvLG7WseCl66p14vP4+e0cO/dq0+j3fFuZGyUF/k56QPqfSzcp1PvfBp78bRzFri0eoajqEk9iyPsuKRtj0y6X8O3mySlfEjipSZEGW2abIOjNm4iyVUcdA63RoiOais31eUtTAjQ1d9QdB04t89/1O/w1cDnyilFU='
 });
 
 //請填入 MySql Database 資訊
