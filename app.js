@@ -22,10 +22,10 @@ var bot = linebot({
 
 //請填入 MySql Database 資訊
 var con = mysql.createConnection({
-    host: "MySql Database Host",
-    user: "MySql Database Account",
-    password: "MySql Database Passwrod",
-    database: "MySql Database Name"
+    host: "http://localhost/phpmyadmin/index.php?token=408ec9bad2ff783eee7cfdcc2519fc94",
+    user: "azxs15945675321",
+    password: "azxs7947586025",
+    database: "bublue"
 });
 
 con.connect(function(err) {
